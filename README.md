@@ -2,12 +2,12 @@ This repository contains code for a simple command-line slot machine game writte
 
 Features:
 
-Deposit funds
-Choose the number of lines to bet on (1-3)
-Set bet amount per line
-Spins the reels with random symbols
-Checks for winning combinations
-Displays results and remaining balance
+Deposit funds,
+Choose the number of lines to bet on (1-3),
+Set bet amount per line,
+Spins the reels with random symbols,
+Checks for winning combinations,
+Displays results and remaining balance.
 
 Getting Started:
 Clone this repository or download the files.
