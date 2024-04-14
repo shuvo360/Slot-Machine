@@ -1,10 +1,3 @@
-// 1. deposit some money.
-// 2. Determine number of lines to bet on
-//3. collect a bet amount
-//4. Spin the slot machine.
-//5. check if the user won.
-// 6. give the user their winnings.
-//7. play again
 
 const prompt = require('prompt-sync')()
 
@@ -60,7 +53,7 @@ const getBet = (balance, lines) => {
         }
     }
 }
-
+//4. Spin the slot machine.
 const spin = () => {
     const symbols = []
     for (const [symbol, count] of Object.entries(SYMBOLS_COUNT)) {
@@ -106,7 +99,7 @@ const printRows = (rows) => {
         console.log(rowString)
     }
 }
-
+//5. check if the user won.
 const getWinnings = (rows, bet, lines) => {
     let winnings = 0
     for (let row = 0; row < lines; row++) {
@@ -128,7 +121,8 @@ const getWinnings = (rows, bet, lines) => {
 
     return winnings
 }
-
+// 6. give the user their winnings.
+//7. play again
 const game = () => {
     let balance = deposit()
     while (true) {
